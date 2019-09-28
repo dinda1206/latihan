@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    int jaraktempuh, waktutempuh, kecepatankendaraan;
+    jaraktempuh = 750;
+    waktutempuh = 20;
+    cout <<"Kecepatan kendaraan Amir \n";
+    cout <<"jarak tempuh : "<<jaraktempuh<<" km"<<'\n';
+    cout <<"waktu tempuh : "<<waktutempuh<<" jam"<<'\n';
+    
+    kecepatankendaraan=(jaraktempuh/waktutempuh);
+    cout<<"kecepatan kendaraan = "<<kecepatankendaraan<<" km/jam"<< '\n';
+}
