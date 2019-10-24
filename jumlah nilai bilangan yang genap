@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+	int jum, i, arr[100],total=0;
+	cout << "Masukkan jumlah bilangan : ";
+	cin >> jum;
+	for (i = 0; i < jum; i++) {
+		cout << "Masukkan bilangan ke " << i + 1 << " : ";
+		cin >> arr[i];
+	}
+	for (i = 0; i < jum; i++) {
+		if (arr[i] % 2==0) {
+			total = total + arr[i];
+		}
+	}
+	cout << "total penjumlahan : " << total;
+
+
+}
