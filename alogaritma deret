@@ -8,7 +8,7 @@ int main() {
     cin >> n;
     int jawaban = 0;
     for (int i=1; i<=n; i++){
-        jawaban=i+n;
+        jawaban+=i;
     }
     cout << "Hasil : " << jawaban << endl;
 }
