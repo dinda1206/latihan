@@ -1,0 +1,68 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int angka;
+	char x;
+menu:
+	system("cls");
+	cout << "Konversi angka Arab ke angka Romawi" << endl;
+	cout << "Masukkan angka Arab (1-10) : " << endl;
+	cin >> angka;
+
+
+	//menggunakan switch case
+	switch (angka)
+	{
+	case 1:
+		cout << "I" << endl;
+		cin >> x;
+		goto menu;
+		break;
+	case 2:
+		cout << "II" << endl;
+		cin >> x;
+		goto menu;
+		break;
+	case 3:
+		cout << "III" << endl;
+		cin >> x;
+		goto menu;
+		break;
+	case 4:
+		cout << "IV" << endl;
+		cin >> x;
+		goto menu;
+		break;
+	case 5:
+		cout << "V" << endl;
+		cin >> x;
+		goto menu;
+		break;
+	case 6:
+		cout << "VI" << endl;
+		cin >> x;
+		goto menu;
+		break;
+	case 7:
+		cout << "VII" << endl;
+		cin >> x;
+		goto menu;
+		break;
+	case 8:
+		cout << "VIII" << endl;
+		cin >> x;
+		goto menu;
+		break;
+	case 9:
+		cout << "IX" << endl;
+		cin >> x;
+		goto menu;
+		break;
+	case 0:
+		cout << "TIDAK ADA" << endl;
+		break;
+	default:
+		cout << "Angka melebihi batas atau inputan bukan angka" << endl;
+	}
+}
